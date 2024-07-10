@@ -1,6 +1,7 @@
 ﻿using System;
 
 namespace SectionA {
+    public delegate string ProductInfoGenerator(Product product);
     public class Program {
         static List<Product> products = new List<Product>();
 
@@ -23,8 +24,8 @@ namespace SectionA {
                         PackagingMaterial = data[10]
                     };
                     products.Add(product);
-                    Console.WriteLine($"Product {product.Name} added to list.");
                 }
+                Console.WriteLine($"{products.Count} products added to list.");
                 return products;
             } else {
                 Console.WriteLine($"ProdMasterlist.txt does not exist.");
@@ -33,13 +34,29 @@ namespace SectionA {
         }
         public static void Main(string[] args) {
             List<Product> products = ReadProdMasterList();
-            File.WriteAllText("Marketing.txt", string.Empty);
-            File.WriteAllText("Sales.txt", string.Empty);
-            File.WriteAllText("Logistics.txt", string.Empty);
-            foreach (Product product in products) {
-                product.GenerateInfoForMarketing();
-                product.GenerateInfoForSales();
-                product.GenerateInfoForLogistics();
+
+            try {
+                File.WriteAllText("Marketing.txt", string.Empty);
+                File.WriteAllText("Sales.txt", string.Empty);
+                File.WriteAllText("Logistics.txt", string.Empty);
+                Console.WriteLine("All Files cleared.");
+            } catch {
+                Console.WriteLine("Error clearing files.");
+            }
+
+            ProductInfoGenerator marketingDelegate = product => product.GenerateInfoForMarketing();
+            ProductInfoGenerator salesDelegate = product => product.GenerateInfoForSales();
+            ProductInfoGenerator logisticsDelegate = product => product.GenerateInfoForLogistics();
+
+            try {
+                foreach (Product product in products) {
+                    marketingDelegate(product);
+                    salesDelegate(product);
+                    logisticsDelegate(product);
+                }
+                Console.WriteLine("Product info generated and appended to text files.");
+            } catch {
+                Console.WriteLine("Error generating product info and appending to text files.");
             }
         }
     }
