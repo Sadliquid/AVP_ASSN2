@@ -1,0 +1,25 @@
+Laptop - High-performance laptop for work and entertainment. - 1000 - Intel Core i7 processor; 16GB RAM; 512GB SSD - 1/1/2018 12:00:00 AM
+Smartphone - Feature-packed smartphone with advanced camera and display. - 700 - "6.5"" AMOLED display; 128GB storage; 5G connectivity" - 3/8/2018 12:00:00 AM
+Smart TV - 4K Ultra HD smart TV with built-in streaming apps. - 900 - "65"" screen; voice control; HDR support" - 5/15/2018 12:00:00 AM
+Fitness Tracker - Wearable fitness tracker with heart rate monitor and GPS. - 130 - Heart rate monitor; step counter; GPS tracking - 7/22/2018 12:00:00 AM
+Wireless Earbuds - True wireless earbuds with noise cancellation. - 150 - Noise cancellation; touch controls; 30-hour battery life - 9/28/2018 12:00:00 AM
+Coffee Maker - Programmable coffee maker for brewing delicious coffee. - 80 - 12-cup capacity; programmable timer; auto shut-off - 12/4/2018 12:00:00 AM
+Digital Camera - High-resolution digital camera for capturing memories. - 400 - 24MP sensor; 4K video recording; Wi-Fi connectivity - 2/11/2019 12:00:00 AM
+Gaming Console - Next-gen gaming console for immersive gaming experience. - 500 - 4K gaming; SSD storage; ray tracing - 4/18/2019 12:00:00 AM
+Tablet - Versatile tablet for work and entertainment on-the-go. - 300 - "10.1"" display; quad-core processor; 64GB storage" - 6/25/2019 12:00:00 AM
+External Hard Drive - External hard drive for storing and backing up data. - 130 - 2TB capacity; USB 3.0 connectivity; rugged design - 9/1/2019 12:00:00 AM
+Wireless Router - High-speed wireless router for seamless internet connectivity. - 80 - Dual-band Wi-Fi; gigabit Ethernet ports; parental controls - 11/8/2019 12:00:00 AM
+Power Bank - Portable power bank for charging devices on-the-go. - 40 - 20000mAh capacity; multiple USB ports; LED indicators - 1/15/2020 12:00:00 AM
+Electric Toothbrush - Electric toothbrush for efficient and thorough cleaning. - 50 - Sonic technology; multiple cleaning modes; built-in timer - 3/23/2020 12:00:00 AM
+Portable Speaker - Compact portable speaker for music on-the-go. - 30 - 10W output; Bluetooth connectivity; built-in mic - 5/30/2020 12:00:00 AM
+Wireless Mouse - Wireless mouse for comfortable and precise navigation. - 20 - Optical sensor; ergonomic design; plug-and-play - 8/6/2020 12:00:00 AM
+Action Camera - Action camera for capturing adventures in high-definition. - 150 - 4K video recording; waterproof; Wi-Fi connectivity - 10/12/2020 12:00:00 AM
+Stand Mixer - Versatile tablet for work and entertainment on-the-go. - 200 - 5-quart stainless steel bowl; 10-speed settings; tilt-head design - 12/19/2020 12:00:00 AM
+Fitness Watch - Fitness watch for tracking workouts and monitoring health. - 180 - GPS tracking; heart rate monitor; sleep analysis - 2/26/2021 12:00:00 AM
+Electric Kettle - Electric kettle for boiling water quickly and efficiently. - 30 - 1.7-liter capacity; stainless steel construction; auto shut-off - 5/3/2021 12:00:00 AM
+Wireless Keyboard - Wireless keyboard for comfortable typing and convenience. - 50 - Full-size layout; quiet keys; long battery life - 7/9/2021 12:00:00 AM
+Robot Vacuum Cleaner - Robot vacuum cleaner for hands-free cleaning. - 300 - Smart navigation; multi-surface brushes; app control - 9/16/2021 12:00:00 AM
+Portable SSD - Portable SSD for fast and reliable storage. - 180 - 1TB capacity; USB-C connectivity; shock-resistant - 11/23/2021 12:00:00 AM
+Air Purifier - Air purifier for clean and fresh indoor air. - 200 - True HEPA filter; 4-stage purification; quiet operation - 2/1/2022 12:00:00 AM
+Portable Projector - Portable projector for home entertainment and presentations. - 250 - 1080p resolution; built-in speaker; HDMI input - 4/9/2022 12:00:00 AM
+Slow Cooker - Slow cooker for convenient and flavorful cooking. - 60 - 6-quart capacity; programmable timer; removable stoneware - 6/16/2022 12:00:00 AM

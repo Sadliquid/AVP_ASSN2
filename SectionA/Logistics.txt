@@ -1,0 +1,25 @@
+123456789 - Laptop - 2.5 - Recyclable cardboard box
+234567890 - Smartphone - 0.2 - Foam-lined retail box
+345678901 - Smart TV - 30 - Styrofoam-lined cardboard box
+456789012 - Fitness Tracker - 0.05 - Plastic clamshell packaging
+678901234 - Wireless Earbuds - 0.1 - PET blister pack
+789012345 - Coffee Maker - 3 - Cardboard retail box
+890123456 - Digital Camera - 0.5 - Foam-lined retail box
+901234567 - Gaming Console - 4 - Custom-printed retail box
+123456785 - Tablet - 0.5 - Recycled cardboard box
+120456789 - External Hard Drive - 0.2 - Recyclable cardboard box
+234567893 - Wireless Router - 0.5 - Foam-lined retail box
+758412345 - Power Bank - 0.3 - PET blister pack
+456999012 - Electric Toothbrush - 0.2 - Plastic clamshell packaging
+567890123 - Portable Speaker - 0.4 - Retail display box
+608901234 - Wireless Mouse - 0.1 - Recyclable cardboard box
+789012365 - Action Camera - 0.1 - Foam-lined retail box
+890123458 - Stand Mixer - 7.5 - Cardboard retail box
+901234569 - Fitness Watch - 0.1 - Recycled paper box
+123456701 - Electric Kettle - 0.9 - Foam-lined cardboard box
+123456780 - Wireless Keyboard - 0.7 - Recyclable plastic bag
+234567899 - Robot Vacuum Cleaner - 3.5 - Molded plastic clamshell
+305678901 - Portable SSD - 0.1 - Recyclable cardboard box
+745678901 - Air Purifier - 6 - Recycled plastic clamshell
+597890123 - Portable Projector - 1.5 - Cardboard retail box
+678971234 - Slow Cooker - 5 - Molded polystyrene clamshell
