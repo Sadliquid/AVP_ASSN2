@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SectionB
-build_property.ProjectDir = /Users/Joshua/Downloads/ASN2_Student_Resource/SectionB/
+build_property.ProjectDir = /Users/Joshua/Desktop/AVP_ASSN2/SectionB/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

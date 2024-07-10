@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Joshua/Downloads/ASN2_Student_Resource/SectionC/SectionC.csproj",
+      "projectUniqueName": "/Users/Joshua/Desktop/AVP_ASSN2/SectionC/SectionC.csproj",
       "projectName": "SectionC",
-      "projectPath": "/Users/Joshua/Downloads/ASN2_Student_Resource/SectionC/SectionC.csproj",
+      "projectPath": "/Users/Joshua/Desktop/AVP_ASSN2/SectionC/SectionC.csproj",
       "packagesPath": "/Users/joshua/.nuget/packages/",
-      "outputPath": "/Users/Joshua/Downloads/ASN2_Student_Resource/SectionC/obj/",
+      "outputPath": "/Users/Joshua/Desktop/AVP_ASSN2/SectionC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/joshua/.nuget/NuGet/NuGet.Config"

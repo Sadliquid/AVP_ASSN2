@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Joshua/Downloads/ASN2_Student_Resource/SectionB/SectionB.csproj": {}
+    "/Users/Joshua/Desktop/AVP_ASSN2/SectionB/SectionB.csproj": {}
   },
   "projects": {
-    "/Users/Joshua/Downloads/ASN2_Student_Resource/SectionB/SectionB.csproj": {
+    "/Users/Joshua/Desktop/AVP_ASSN2/SectionB/SectionB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Joshua/Downloads/ASN2_Student_Resource/SectionB/SectionB.csproj",
+        "projectUniqueName": "/Users/Joshua/Desktop/AVP_ASSN2/SectionB/SectionB.csproj",
         "projectName": "SectionB",
-        "projectPath": "/Users/Joshua/Downloads/ASN2_Student_Resource/SectionB/SectionB.csproj",
+        "projectPath": "/Users/Joshua/Desktop/AVP_ASSN2/SectionB/SectionB.csproj",
         "packagesPath": "/Users/joshua/.nuget/packages/",
-        "outputPath": "/Users/Joshua/Downloads/ASN2_Student_Resource/SectionB/obj/",
+        "outputPath": "/Users/Joshua/Desktop/AVP_ASSN2/SectionB/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/joshua/.nuget/NuGet/NuGet.Config"
