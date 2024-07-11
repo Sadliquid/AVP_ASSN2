@@ -1,9 +1,8 @@
 ﻿using SectionA;
-using System.Threading.Tasks;
 
 namespace SectionB {
     public class Program {
-        public enum DiscountTier {
+        public enum DiscountTier { // Declare enum to store discount tiers
             A = 10,
             B = 6,
             C = 2
@@ -12,22 +11,22 @@ namespace SectionB {
         public static Product CalculateDiscount(Product product, string discountTier) {
             double discountedPercentage;
             if (discountTier == "A") {
-                discountedPercentage = (100 - (int)DiscountTier.A) / 100.0;
+                discountedPercentage = (100 - (int)DiscountTier.A) / 100.0; // Calculate percentage payable after discount
             } else if (discountTier == "B") {
-                discountedPercentage = (100 - (int)DiscountTier.B) / 100.0;
+                discountedPercentage = (100 - (int)DiscountTier.B) / 100.0; // Calculate percentage payable after discount
             } else {
-                discountedPercentage = (100 - (int)DiscountTier.C) / 100.0;
+                discountedPercentage = (100 - (int)DiscountTier.C) / 100.0; // Calculate percentage payable after discount
             }
             product.Price *= discountedPercentage;
             return product;
         }
 
-        public static async Task<Product> CalculateDiscountAsync(Product product, string discountTier) {
+        public static async Task<Product> CalculateDiscountAsync(Product product, string discountTier) { // Define a function to call the CalculateDiscount method asynchronously
             return await Task.Run(() => CalculateDiscount(product, discountTier));
         }
 
         public static void UpdateDiscAmountToMasterlist(string content) {
-            File.AppendAllText(Path.GetFullPath("../ProdMasterlistB.txt"), content);
+            File.AppendAllText(Path.GetFullPath("../ProdMasterlistB.txt"), content); // Create a new text file and write the updated content to it
         }
 
         public static async Task Main(string[] args) {
@@ -40,14 +39,14 @@ namespace SectionB {
                 double totalDiscountedPrice = 0;
                 File.WriteAllText(Path.GetFullPath("../ProdMasterlistB.txt"), "Barcode|Name|Description|ReleaseDate(dd/MM/yyyy)|Feature|Price(S$)|Quantity|DiscountType|QuantitySold|Weight(kg)|PackagingMaterial|DiscountedPrice(S$)\n");
 
-                List<Task<Product>> discountTasks = new List<Task<Product>>();
+                List<Task<Product>> discountTasks = new List<Task<Product>>(); // Initialise a list of tasks to complete
                 foreach (var product in products) {
-                    discountTasks.Add(CalculateDiscountAsync(product, product.DiscountType));
+                    discountTasks.Add(CalculateDiscountAsync(product, product.DiscountType)); // Call the CalculateDiscount function asynchronously
                 }
 
-                Product[] discountedProducts = await Task.WhenAll(discountTasks);
+                Product[] discountedProducts = await Task.WhenAll(discountTasks); // Construct complete discountedproducts list only when async CalculateDiscount calls are completed, then proceed.
 
-                for (int i = 0; i < products.Count; i++){
+                for (int i = 0; i < products.Count; i++) { // discountedproducts list has already been fully constructed
                     Product discountedProduct = discountedProducts[i];
                     Console.WriteLine("----------------------------------");
                     Console.WriteLine($"{products[i].Name} ({products[i].Barcode})");
