@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SectionA", "SectionA\SectionA.csproj", "{80ED219B-6A5F-4468-B0C3-4EFCE485FFC9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SectionC", "SectionC\SectionC.csproj", "{AC1DC2A5-BB1D-4DD8-AAA0-1A4E3B61D4C9}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SectionB", "SectionB\SectionB.csproj", "{BF88E2A6-73BD-419C-93FC-31E21B958966}"
 EndProject
 Global
