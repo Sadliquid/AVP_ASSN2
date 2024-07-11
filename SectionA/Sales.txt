@@ -1,3 +1,4 @@
+Barcode|Name|Description|Price|Quantity|QuantitySold|DiscountType
 123456789 - Laptop - High-performance laptop for work and entertainment. - 1000 - 100 - 20 - A
 234567890 - Smartphone - Feature-packed smartphone with advanced camera and display. - 700 - 120 - 30 - A
 345678901 - Smart TV - 4K Ultra HD smart TV with built-in streaming apps. - 900 - 80 - 10 - A

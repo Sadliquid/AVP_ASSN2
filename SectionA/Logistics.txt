@@ -1,3 +1,4 @@
+Barcode|Name|Weight|PackagingMaterial
 123456789 - Laptop - 2.5 - Recyclable cardboard box
 234567890 - Smartphone - 0.2 - Foam-lined retail box
 345678901 - Smart TV - 30 - Styrofoam-lined cardboard box

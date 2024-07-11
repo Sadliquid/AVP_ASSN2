@@ -1,3 +1,4 @@
+Name|Description|Price|Feature|ReleaseDate
 Laptop - High-performance laptop for work and entertainment. - 1000 - Intel Core i7 processor; 16GB RAM; 512GB SSD - 1/1/2018 12:00:00 AM
 Smartphone - Feature-packed smartphone with advanced camera and display. - 700 - "6.5"" AMOLED display; 128GB storage; 5G connectivity" - 3/8/2018 12:00:00 AM
 Smart TV - 4K Ultra HD smart TV with built-in streaming apps. - 900 - "65"" screen; voice control; HDR support" - 5/15/2018 12:00:00 AM

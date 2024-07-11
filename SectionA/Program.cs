@@ -46,9 +46,9 @@ namespace SectionA {
             }
 
             try {
-                File.WriteAllText("Marketing.txt", string.Empty);
-                File.WriteAllText("Sales.txt", string.Empty);
-                File.WriteAllText("Logistics.txt", string.Empty);
+                File.WriteAllText("Marketing.txt", "Name|Description|Price|Feature|ReleaseDate\n");
+                File.WriteAllText("Sales.txt", "Barcode|Name|Description|Price|Quantity|QuantitySold|DiscountType\n");
+                File.WriteAllText("Logistics.txt", "Barcode|Name|Weight|PackagingMaterial\n");
                 Console.WriteLine("All Files cleared.");
                 Console.WriteLine();
             } catch {
@@ -56,15 +56,13 @@ namespace SectionA {
                 Console.WriteLine();
             }
 
-            ProductInfoGenerator marketingDelegate = product => product.GenerateInfoForMarketing();
-            ProductInfoGenerator salesDelegate = product => product.GenerateInfoForSales();
-            ProductInfoGenerator logisticsDelegate = product => product.GenerateInfoForLogistics();
+            ProductInfoGenerator consolidatedDelegate = product => product.GenerateInfoForMarketing();
+            consolidatedDelegate += product => product.GenerateInfoForSales();
+            consolidatedDelegate += product => product.GenerateInfoForLogistics();
 
             try {
                 foreach (Product product in products) {
-                    marketingDelegate(product);
-                    salesDelegate(product);
-                    logisticsDelegate(product);
+                    consolidatedDelegate(product); // Invoke all 3 GenerateInfo methods together in 1 Delegate
                 }
                 Console.WriteLine("Product info generated and appended to text files.");
                 Console.WriteLine();
