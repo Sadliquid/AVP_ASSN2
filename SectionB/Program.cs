@@ -54,7 +54,7 @@ namespace SectionB {
                     Console.WriteLine($"Discounted Price: ${discountedProduct.Price.ToString("F2")}");
                     Console.WriteLine("----------------------------------");
                     totalDiscountedPrice += discountedProduct.Price;
-                    UpdateDiscAmountToMasterlist($"{discountedProduct.Barcode}|{discountedProduct.Name}|{discountedProduct.Description}|{discountedProduct.ReleaseDate}|{discountedProduct.Feature}|{products[i].Price.ToString("F2")}|{discountedProduct.Quantity}|{discountedProduct.DiscountType}|{discountedProduct.QuantitySold}|{discountedProduct.Weight}|{discountedProduct.PackagingMaterial}|{discountedProduct.Price.ToString("F2")}\n");
+                    UpdateDiscAmountToMasterlist($"{discountedProduct.Barcode}|{discountedProduct.Name}|{discountedProduct.Description}|{discountedProduct.ReleaseDate.ToString("MM/dd/yyyy")}|{discountedProduct.Feature}|{products[i].Price.ToString("F2")}|{discountedProduct.Quantity}|{discountedProduct.DiscountType}|{discountedProduct.QuantitySold}|{discountedProduct.Weight}|{discountedProduct.PackagingMaterial}|{discountedProduct.Price.ToString("F2")}\n");
                 }
 
                 Console.WriteLine($"Total discount price: ${totalDiscountedPrice.ToString("F0")} for {products.Count} products.");

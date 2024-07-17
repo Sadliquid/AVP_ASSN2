@@ -16,7 +16,7 @@ namespace SectionA {
         public double DiscountPrice { get; set; } = 0.0;
 
         public string GenerateInfoForMarketing() {
-            string generatedMarketingData =  $"{Name} - {Description} - {Price} - {Feature} - {ReleaseDate}";
+            string generatedMarketingData =  $"{Name} - {Description} - {Price} - {Feature} - {ReleaseDate.ToString("dd/MM/yyyy")}";
             if (File.Exists("Marketing.txt")) {
                 File.AppendAllText("Marketing.txt", generatedMarketingData + Environment.NewLine);
             } else {
