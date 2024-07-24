@@ -2,22 +2,20 @@ import datetime, os
 from functools import reduce
 
 class Product: # Create a Product class
-    def __init__(self, discount_type, release_date, price, quantity_sold):
+    def __init__(self, discount_type, release_date, discountedPrice, quantity_sold):
         self.discount_type = discount_type
         self.release_date = release_date
-        self.price = price
+        self.discountedPrice = discountedPrice
         self.quantity_sold = quantity_sold
 
-def CalculateTotalSales(products): # Accept a list of Product objects
+def CalculateTotalSales(products):
     return reduce(
-        (lambda x, y : x + y), 
-        map(lambda product : (product.price * ((100 - 6) / 100) * (product.quantity_sold * 1.35) if product.discount_type == 'B' else (
-            product.price * ((100 - 2) / 100) * (product.quantity_sold * 1.35) if product.discount_type == 'C' else (
-                product.price * (product.quantity_sold * 1.35)
-            )
-        )),
-        filter(lambda product : int(datetime.datetime.strptime(str(product.release_date), "%m/%d/%Y").year) >= 2020, products))
-    ) # Calculate total sales using Lambda reduce, map, and filter in 1 statement
+        lambda accumulator, product: accumulator + (product.discountedPrice * (product.quantity_sold * 1.35)),
+        filter(
+            lambda product: product.discount_type in ["B", "C"] and datetime.datetime.strptime(product.release_date, "%m/%d/%Y").year >= 2020,
+            products
+        ), 0
+    )    
 
 def main():
     if os.path.exists("../ProdMasterlistB.txt"):
@@ -28,7 +26,7 @@ def main():
                     list(map(lambda product : Product(
                         product.strip().split("|")[7], # Discount Type
                         product.strip().split("|")[3], # Release Date
-                        float(product.strip().split("|")[5]), # Price
+                        float(product.strip().split("|")[11]), # Discounted Price
                         int(product.strip().split("|")[8]) # Quantity Sold
                     ), lines[1:]))
                 ):.2f}"
