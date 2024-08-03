@@ -1,9 +1,11 @@
 # Advanced Programming - Assignment 2
-This is a GitHub Repository for the Assignment 2 of my Advanced Programming Module
+This assignment focuses on C# Delegates, Enums, asnychronous processes and functional programming
 
 ## Sources and credits
-[C# Delegates (GeeksForGeeks)](https://www.geeksforgeeks.org/c-sharp-delegates/)
-[C# Enums (W3 Schools)](https://www.w3schools.com/cs/cs_enums.php)
+- [C# Delegates (GeeksForGeeks)](https://www.geeksforgeeks.org/c-sharp-delegates/)
+- [C# Enums (W3 Schools)](https://www.w3schools.com/cs/cs_enums.php)
+
+The following AI tools were respectfully used to aid me in the asynchronous tasks section of this assignment:
 
 ## Submission details
 
