@@ -1,4 +1,4 @@
-`Barcode|Name|Description|ReleaseDate(dd/MM/yyyy)|Feature|Price(S$)|Quantity|DiscountType|QuantitySold|Weight(kg)|PackagingMaterial|DiscountedPrice(S$)
+Barcode|Name|Description|ReleaseDate(dd/MM/yyyy)|Feature|Price(S$)|Quantity|DiscountType|QuantitySold|Weight(kg)|PackagingMaterial|DiscountedPrice(S$)
 123456789|Laptop|High-performance laptop for work and entertainment.|01/01/2018|Intel Core i7 processor; 16GB RAM; 512GB SSD|1000.00|100|A|20|2.5|Recyclable cardboard box|900.00
 234567890|Smartphone|Feature-packed smartphone with advanced camera and display.|03/08/2018|"6.5"" AMOLED display; 128GB storage; 5G connectivity"|700.00|120|A|30|0.2|Foam-lined retail box|630.00
 345678901|Smart TV|4K Ultra HD smart TV with built-in streaming apps.|05/15/2018|"65"" screen; voice control; HDR support"|900.00|80|A|10|30|Styrofoam-lined cardboard box|810.00
