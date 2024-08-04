@@ -1,7 +1,7 @@
 # Advanced Programming - Assignment 2
 This assignment focuses on C# Delegates, Enums, asnychronous processes and functional programming
 
-**In a scenario where the program cannot be run due to varying security restructions across different Operating Systems, PLEASE delete the `obj` and `bin` files!**
+**In a scenario where the program cannot be run due to varying security restructions across different Operating Systems, PLEASE delete the `obj` and `bin` files and try running the code again!**
 
 ## Sources and credits
 - [C# Delegates (GeeksForGeeks)](https://www.geeksforgeeks.org/c-sharp-delegates/)
